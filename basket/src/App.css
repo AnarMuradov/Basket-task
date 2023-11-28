@@ -1,0 +1,80 @@
+*{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.Basket{
+    /* border: 2px solid black; */
+    width: 100%;
+    padding: 10px 0px;
+    display: grid;
+    justify-items: center;
+    background-color: chocolate;
+    }
+   .basketProducts{
+    display: grid;
+    grid-template-columns: auto auto auto auto  ;
+    padding: 10px 0px;
+   }
+.products{
+    /* border: 2px solid black; */
+    width: 100%;
+    padding: 10px 0px;
+    display: grid;
+    justify-items: center;
+    background-color: chartreuse;
+}
+ul{
+  width: 200px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 35px;
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+margin: 20px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  backdrop-filter: blur(15px);
+}
+.allBasketProducts{
+    display: grid;
+    grid-template-columns: auto auto auto auto  ;
+    padding: 10px 0px;
+}
+button{
+    padding: 1px 20px;
+    border-radius:5px ;
+    color: white;
+}
+
+.plas{
+    width: 60px;
+    background-color: green;
+}
+.minus{
+    width: 60px;
+    background-color: orangered;
+}
+.dlt{
+    width: 100px;
+    background-color: red;
+}
+.add{
+    width: 130px;
+    background-color: green;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   color:white;
+   font-style: italic;
+}
+li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
